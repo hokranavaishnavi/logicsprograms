@@ -6,7 +6,7 @@ public class lowertoupper {
         String res="";
         for(int i=0; i<str.length(); i++){
             char c=str.charAt(i);
-            if(c>='A' && c<='Z'){
+            if(c>='A' && c <='Z'){
                 res = res+(char) (c + ('a' - 'A'));
             } else if (c>='a' && c<='z') {
                 res = res+ (char) (c - ('a' - 'A'));

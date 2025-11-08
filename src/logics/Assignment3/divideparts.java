@@ -9,16 +9,15 @@ public class divideparts {
             int length = str.length();
             int size = length / n; // characters per part
 
-//            if(length % n != 0 ) {
-//                System.out.println("Cannot divide string equally!");
-//            } else {
-//                for(int i = 0; i < length; i += size) {
-//                    System.out.println(str.substring(i, i + size));
-//                }
-//            }
+            if(length % n != 0 ) {
+                System.out.println("Cannot divide string equally!");
+            } else {
+                for(int i = 0; i < length; i += size) {
+                    System.out.println(str.substring(i, i + size));
+                }
+            }
 
-            if(size>length){
+            
 
             }
         }
-    }
