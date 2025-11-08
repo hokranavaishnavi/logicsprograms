@@ -56,8 +56,11 @@ public class EmployeeApp {
 
 interface Crud {
     void addRec();
+
     void viewRec();
+
     void updateRec();
+
     void deleteRec();
 }
 
@@ -68,23 +71,43 @@ class EmployeeApplication {
     private double sal;
 
     public EmployeeApplication(int id, String name, String dept, double sal) {
-        this.id   = id;
+        this.id = id;
         this.name = name;
         this.dept = dept;
-        this.sal  = sal;
+        this.sal = sal;
     }
 
-    public int getId()            { return id; }
-    public void setId(int id)     { this.id = id; }
+    public int getId() {
+        return id;
+    }
 
-    public String getName()        { return name; }
-    public void setName(String name){ this.name = name; }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-    public String getDept()         { return dept; }
-    public void setDept(String dept){ this.dept = dept; }
+    public String getName() {
+        return name;
+    }
 
-    public double getSal()          { return sal; }
-    public void setSal(double sal)  { this.sal = sal; }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
+    }
+
+    public double getSal() {
+        return sal;
+    }
+
+    public void setSal(double sal) {
+        this.sal = sal;
+    }
 
     @Override
     public String toString() {
