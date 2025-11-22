@@ -1,4 +1,4 @@
-package logics.Assignment8;
+package DSA.Assignment8;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

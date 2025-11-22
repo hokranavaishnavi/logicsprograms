@@ -1,4 +1,4 @@
-package logics.Assignment8;
+package DSA.Assignment8;
 
 public class Stack1 {
 
@@ -29,7 +29,7 @@ public class Stack1 {
     }
 
         static boolean isEmpty () {
-            return logics.Assignment8.Stack1.top == -1;
+            return DSA.Assignment8.Stack1.top == -1;
         }
 
 

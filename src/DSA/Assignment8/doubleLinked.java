@@ -1,4 +1,4 @@
-package logics.Assignment8;
+package DSA.Assignment8;
 
 
     class Node1

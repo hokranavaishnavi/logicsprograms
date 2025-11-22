@@ -1,9 +1,9 @@
-package logics.Assignment8;
+package DSA.Assignment8;
 
 import java.util.Arrays;
 import java.util.Stack;
 
-public class GreatestElement {
+public class NextGreater {
 
         public static int[] nextGreater(int[] arr) {
             int n = arr.length;
