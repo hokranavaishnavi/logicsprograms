@@ -24,11 +24,11 @@ public class CustomerMain {
 //        Calculate the total years of membership of the remaining customers.
 //        Find the customer with the highest years of membership and return their details.
         System.out.println("=========== TASK 1 ===========");
-        OptionalDouble average = customerMap.values().stream()
-                .mapToDouble(Customer::getBalance).average();
+        double avg = customerMap.values().stream()
+                .mapToDouble(Customer::getBalance).average().orElse(0);
 
 //// Extract the actual value
-        double avg = average.orElse(0);
+//        double avg = average.orElse(0);
 //
 //// Filter customers with balance >= average
         List<Customer> filtered = customerMap.values().stream()

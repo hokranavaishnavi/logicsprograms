@@ -37,6 +37,7 @@ public class Main {
         System.out.println(manager1);
 
 
+
         //2.
 
 //        Filter out all employees who have joined in the last 5 years and have a performance rating of less than 8, but have a salary between 60,000 and 120,000.
