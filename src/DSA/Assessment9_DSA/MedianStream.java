@@ -1,4 +1,4 @@
-package DSA.Assessment9;
+package DSA.Assessment9_DSA;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
