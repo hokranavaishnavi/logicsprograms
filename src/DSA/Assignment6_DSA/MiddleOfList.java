@@ -1,4 +1,4 @@
-package logics.Assignment6;
+package DSA.Assignment6_DSA;
 
 public class MiddleOfList {
     static class Node {
